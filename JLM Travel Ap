@@ -1,0 +1,41 @@
+{
+  "name": "prague-ai-saas",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "prisma": "prisma generate"
+  },
+  "dependencies": {
+    "next": "14.0.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "next-auth": "^4.24.0",
+    "@prisma/client": "^5.0.0",
+    "stripe": "^14.0.0"
+  },
+  "devDependencies": {
+    "prisma": "^5.0.0"
+  }
+}
+
+# Prague AI Travel SaaS Platform
+
+## Stack
+- Next.js
+- Prisma (Postgres)
+- NextAuth (Auth)
+- Stripe (billing-ready scaffold)
+
+## Run
+npm install
+npm run dev
+
+## SaaS upgrade path
+1. Add Supabase/Postgres
+2. Enable NextAuth providers (Google)
+3. Add Stripe subscriptions
+4. Multi-tenant org dashboards
+5. Real-time travel agent API
